@@ -138,6 +138,7 @@ h2.themeix-title a {
 }
 .menu-logo a {
     display: block;
+    
 }
 
 .top-menu nav ul li a {
@@ -148,6 +149,8 @@ h2.themeix-title a {
     transition: color .4s linear 0s;
     text-transform: uppercase;
     letter-spacing: 1px;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
 }
 .top-menu nav ul li.active a {
  color:#f83a3a;
@@ -288,6 +291,8 @@ slider
 .author-thumbnail img {
     max-width: 100%;
     padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 50%;
 }
 .single-article {
     width: 82%;

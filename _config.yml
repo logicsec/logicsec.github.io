@@ -38,5 +38,5 @@ github_url:  				"http://github.com/themeix"
 # Build Settings
 markdown: 					kramdown
 permalink: 					pretty
-highlighter:                rouge
+highlighter:        rouge
 
