@@ -2,7 +2,7 @@
 layout: post
 title: "Hack The Box Walkthrough: Bashed"
 custom_page_description: "Walkthrough of HTB: Bashed"
-categories: HTB
+categories: htb
 post_image: "/assets/images/htb/bashed.png"
 author: Nicholas Knight
 author_image: "/assets/images/authors/5937.jpg"
