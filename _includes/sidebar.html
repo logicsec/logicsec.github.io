@@ -1,56 +1,56 @@
 <!-- Start Sidebar -->
-    <div class="sidebar-wrapper">
-        <aside>
-            <!-- Author Info -->
-            <div class="single-widget">
-                <h4 class="sidebar-title">About Me</h4>
-                <div class="profile-picture">
-                    <a href="{{site.url}}">
-                        <figure><img src="{{site.url}}/assets/images/authors/5937.jpg" alt="{{site.title}}"></figure>
-                    </a>
-                </div>
-                <p class="author-name">{{site.author_name}}</p>
-                <span class="profession">Passionate Blogger</span>
-                <div class="widget-text bio-text">
-                    <p>{{site.author_bio}}</p>
-                </div>
-                <div class="social-share">
-                    <ul>
-                        <li><a target="_blank" href="{{site.author_facebook}}"><i class="fa fa-facebook"></i></a></li>
-                        <li><a target="_blank"  href="{{site:author_twitter}}"><i class="fa fa-twitter"></i></a></li>
-                        <li><a target="_blank" href="mailto:{{site.author_email}}"><i class="fa fa-envelope"></i></a></li>
-                        <li><a target="_blank" href="{{site:author_url}}"><i class="fa fa-link"></i></a></li>
-                    </ul>
-                </div>
+<div class="sidebar-wrapper">
+    <aside>
+        <!-- Author Info -->
+        <div class="single-widget">
+            <h4 class="sidebar-title">About Me</h4>
+            <div class="profile-picture">
+                <a href="{{site.url}}">
+                    <figure><img src="{{site.url}}/assets/images/authors/5937.jpg" alt="{{site.title}}"></figure>
+                </a>
             </div>
-            <!-- Recent Posts -->
-            <div class="single-wiget">
-                <h4 class="sidebar-title">recent posts</h4>
-                <div class="recent-posts">
-                  {% for post in site.posts limit:5 %}
-                    <div class="single-recent-post">
-                        <div class="recent-post-img">
-                            <a href="{{site.baseurl}}{{post.url}}"><img src="{{site.baseurl}}{{ post.post_image }}" alt="{{ post.title }}"></a>
-                        </div>
-                        <div class="recent-post-title">
-                            <a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a>
-                            <div class="post-date">{{ post.date | date_to_string }}</div>
-                        </div>
+            <p class="author-name">{{site.author_name}}</p>
+            <span class="profession">Passionate Blogger</span>
+            <div class="widget-text bio-text">
+                <p>{{site.author_bio}}</p>
+            </div>
+            <div class="social-share">
+                <ul>
+                    <li><a target="_blank" href="{{site.author_facebook}}"><i class="fa fa-facebook"></i></a></li>
+                    <li><a target="_blank"  href="{{site:author_twitter}}"><i class="fa fa-twitter"></i></a></li>
+                    <li><a target="_blank" href="mailto:{{site.author_email}}"><i class="fa fa-envelope"></i></a></li>
+                    <li><a target="_blank" href="{{site:author_url}}"><i class="fa fa-link"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- Recent Posts -->
+        <div class="single-wiget">
+            <h4 class="sidebar-title">recent posts</h4>
+            <div class="recent-posts">
+              {% for post in site.posts limit:5 %}
+                <div class="single-recent-post">
+                    <div class="recent-post-img">
+                        <a href="{{site.baseurl}}{{post.url}}"><img src="{{site.baseurl}}{{ post.post_image }}" alt="{{ post.title }}"></a>
                     </div>
-                    {% endfor %}
+                    <div class="recent-post-title">
+                        <a href="#">{{post.title}}</a>
+                        <div class="post-date">{{ post.date | date_to_string }}</div>
+                    </div>
                 </div>
+                {% endfor %}
             </div>
-            <!-- Twittwr Feed -->
-            <div class="single-widget">
-                <h4 class="sidebar-title">Recent Tweets</h4>
-                <div class="twitter-widget">
-                     <a href="https://twitter.com/" class="twitter-timeline" data-chrome="nofooter noborders noheader" data-tweet-limit="3">Recent Tweets</a>
-                </div>
+        </div>
+        <!-- Twittwr Feed -->
+        <div class="single-widget">
+            <h4 class="sidebar-title">Recent Tweets</h4>
+            <div class="twitter-widget">
+                 <a href="https://twitter.com/themeix_ltd" class="twitter-timeline" data-chrome="nofooter noborders noheader" data-tweet-limit="3">Recent Tweets</a>
             </div>
+        </div>
 
-      
+  
 
 
-        </aside>
-    </div>
- <!-- End Sidebar -->
+    </aside>
+</div>
+<!-- End Sidebar -->
