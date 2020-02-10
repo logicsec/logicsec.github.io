@@ -397,6 +397,17 @@ slider
     float:right;
     text-align:right;
 }
+
+.main-content {
+    padding: 3em 3em 1em 3em;
+    background: #fff;
+    border: solid 1px rgba(160,160,160,.3);
+    margin: 0 0 2em 0;
+    position: relative;
+    overflow: hidden;
+
+}
+
 /****************************************
 
 Start Sidebar
