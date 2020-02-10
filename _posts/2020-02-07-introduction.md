@@ -3,7 +3,7 @@ layout: post
 title: "Introduction"
 custom_page_description: "Brief introduction."
 categories: Introduction
-post_image: "/assets/images/articles/5.jpg"
+post_image: "/assets/images/htb/bashed.png"
 author: Nicholas Knight
 author_image: "/assets/images/authors/5937.jpg"
 author_bio: " An infosec junkie who likes to rant"
