@@ -241,10 +241,13 @@ slider
 .slider-area {
     overflow: hidden;
    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+0,7db9e8+100&1+0,0+100;Blue+to+Transparent */ /* FF3.6-15 */
-background: -webkit-linear-gradient(top,  rgb(255, 255, 255) 0%,rgba(46, 100, 146, 0.31) 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom,  rgb(255, 255, 255) 0%,rgba(46, 100, 146, 0.31) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#007db9e8',GradientType=0 ); /* IE6-9 */
+/* background: -webkit-linear-gradient(top,  rgb(255, 255, 255) 0%,rgba(46, 100, 146, 0.31) 100%); /* Chrome10-25,Safari5.1-6 */
+/* background: linear-gradient(to bottom,  rgb(255, 255, 255) 0%,rgba(46, 100, 146, 0.31) 100%); W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+/* filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#007db9e8',GradientType=0 ); IE6-9 */
 }
+
+
+
 .slider-text h1 {
     font-weight: 600;
     color: #fff;

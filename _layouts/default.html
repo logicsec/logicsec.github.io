@@ -35,7 +35,7 @@
     <!-- Header -->
   {% include header.html %}
    <!-- Start Slider --> 
-    <div class="container-fluid" style="{% if page.custom_featured_image != null %} background:rgba(0, 0, 0, 0) url({{site.baseurl}}/{{page.custom_featured_image}}) no-repeat scroll center center / cover;background-position: center center; {% else %} background:rgba(0, 0, 0, 0) url({{site.baseurl}}/assets/images/cover.jpg) no-repeat scroll center center / cover;background-position: center center {% endif %} ">
+    <!-- <div class="container-fluid" style="{% if page.custom_featured_image != null %} background:rgba(0, 0, 0, 0) url({{site.baseurl}}/{{page.custom_featured_image}}) no-repeat scroll center center / cover;background-position: center center; {% else %} background:rgba(0, 0, 0, 0) url({{site.baseurl}}/assets/images/cover.jpg) no-repeat scroll center center / cover;background-position: center center {% endif %} ">
         <div class="row">
             <div class="slider-area">
                 <div class="col-md-6 col-md-offset-3">
@@ -46,7 +46,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- End Slider -->
 
 	{{ content }}
