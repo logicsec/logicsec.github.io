@@ -1,0 +1,39 @@
+
+
+# Site Settings
+title:"JekyllX"
+email:"bmlja21jMDFAZ21haWwuY29t"
+description:"JekyllX is a content focused minimal responsive theme for the Jekyll blogging platform."
+baseurl:"https://logicsec.github.io"
+url:"https://logicsec.github.io"
+logourl:"https://logicsec.github.io/assets/images/logo.png"	
+footer_logourl:"https://logicsec.github.io/assets/images/logo.png"	
+site_slogan:""		
+paginate:5
+paginate_path:"/page/:num/"
+
+
+# Author Settings
+author_name:"Logic"
+author_bio:"Freelance Pentester and Security Researcher"
+author_url:"http://logicsec.github.io"
+author_facebook:"http://facebook.com/"
+author_twitter:	"http://twitter.com/"
+author_email:"bmlja21jMDFAZ21haWwuY29t"
+author_image:"/assets/images/authors/1.jpg"
+
+
+# Footer Social Settings
+facebook_url:"http://facebook.com/themeix"
+linkedin_url:"http://linkedin.com"
+github_url:"http://github.com/themeix"
+
+
+# SASS Settings
+# DO NOT MODIFY
+ 
+# Build Settings
+markdown:kramdown
+permalink:pretty
+highlighter:rouge
+
