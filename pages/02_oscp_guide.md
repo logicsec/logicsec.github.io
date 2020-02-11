@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: "OSCP Guide"
 custom_page_title: "OSCP Guide" 
 custom_page_description: "Kali Linux Offensive Security Certified Professional Playbook"
