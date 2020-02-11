@@ -19,9 +19,26 @@ body {
     background-color: #f4f4f4;
 }
 
-/* .container {
-    width: 70%;
-} */
+.go-top {
+	position: fixed;
+	bottom: 2em;
+	right: 2em;
+	text-decoration: none;
+	color: white;
+	background-color: #FF9800;
+	font-size: 12px;
+	padding: 1em;
+    display: none;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.go-top:hover {
+	cursor: pointer;
+    background-color: #333;
+}
 
 a {
     color: #444;
