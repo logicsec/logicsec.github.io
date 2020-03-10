@@ -3,7 +3,7 @@ layout: post
 title: "Hack The Box Walkthrough: Bashed"
 custom_page_description: "Walkthrough of HTB: Bashed"
 categories: htb
-post_image: "/assets/images/htb/bashed.png"
+post_image: "/assets/htb-bashed/infocard.png"
 author: Nicholas Knight
 author_image: "/assets/images/authors/5937.jpg"
 author_bio: " An infosec junkie who likes to rant"
@@ -11,7 +11,7 @@ excerpt_separator: <!--more-->
 comments: true
 ---
 
-"**Bashed**" is a the name of a challenge on the popular information security challenge site HackTheBox. The challenge consists of a computer that is intentionally configured to be vulnerable in at least one way, and the goal is to gain unauthorized access to the computer and then escalate the level of that access to "root" privileges. I will hereafter describe the steps that I took to solve the Bashed challenge and end with some brief reflections on how the content of the challenge could apply to reality.
+Bashed is the name of a challenge on the popular information security challenge site HackTheBox. The challenge consists of a computer that is intentionally configured to be vulnerable in at least one way, and the goal is to gain unauthorized access to the computer and then escalate the level of that access to "root" privileges. I will hereafter describe the steps that I took to solve the Bashed challenge and end with some brief reflections on how the content of the challenge could apply to reality.
 
 In the grand scheme of hacking challenges, this one is quite simple. There might not be a lot here for an advanced operator to dig into. Nonetheless, Bashed is entertaining and a good way for beginners to discover some enumeration and hacking techniques, so I'll continue.
 
